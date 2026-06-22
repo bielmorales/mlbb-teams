@@ -1,0 +1,32 @@
+.faq-container {
+  min-height: 100vh;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+.faq-title {
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 48px;
+}
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.faq-item {
+  border-top: 1px solid #1e2530;
+  padding-top: 28px;
+}
+.faq-question {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #e6e9ef;
+}
+.faq-answer {
+  font-size: 0.975rem;
+  line-height: 1.75;
+  color: #9aa4b2;
+}
